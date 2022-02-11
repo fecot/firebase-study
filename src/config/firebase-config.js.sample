@@ -1,0 +1,11 @@
+// Your web app's Firebase configuration
+export default {
+  apiKey: '{API_KEY}',
+  authDomain: '{DOMAIN}',
+  projectId: '{PROJECT_ID}',
+  storageBucket: '{STORAGE_BUCKET}',
+  messagingSenderId: '{MESSAGING_SENDER_ID}',
+  appId: '{APP_ID}'
+}
+
+//view firebase sdk setting
