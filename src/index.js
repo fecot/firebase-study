@@ -1,15 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import App from './components/App'
 import reportWebVitals from './reportWebVitals'
 
 import firebaseConfig from './config/firebase-config'
 import firebase from 'firebase/compat/app'
-import { getFirestore, collection, getDocs } from 'firebase/firestore/lite'
+import { getFirestore } from 'firebase/firestore/lite'
 
 const app = firebase.initializeApp(firebaseConfig)
-const db = getFirestore(app)
 
 ReactDOM.render(
   <React.StrictMode>
